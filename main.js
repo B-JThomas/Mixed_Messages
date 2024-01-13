@@ -3,4 +3,14 @@ const movieQuotes = ["May the Force be with you", "There's no place like home.",
 "I'll be back", "You're gonna need a bigger boat.", "Here's looking at you, kid.", "My precious.", "Houston, we have a problem",
 "There's no crying in baseball"];
 
-console.log(movieQuote[0])
+
+const author = ["Luke Skywalker", "Dorothy Gale", "Jack Dawson", 
+"John Keating", "Sherlock Holmes", "Dr. Frankenstein", "Forrest Gump", 
+"The Terminator", "Chief Martin Brody", "Rick Blaine", "Gollum", "Jim Lovell", 
+"Jimmy Dugan"];
+
+const randomNum = () => {
+    return Math.floor(Math.random() * 13);
+}
+
+console.log(`${author[randomNum()]} once said: "${movieQuotes[randomNum()]}".`);
