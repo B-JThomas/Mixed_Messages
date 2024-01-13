@@ -3,4 +3,4 @@ const movieQuotes = ["May the Force be with you", "There's no place like home.",
 "I'll be back", "You're gonna need a bigger boat.", "Here's looking at you, kid.", "My precious.", "Houston, we have a problem",
 "There's no crying in baseball"];
 
-console.log(movieQuotes)
+console.log(movieQuote[0])
